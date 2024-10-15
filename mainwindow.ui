@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>540</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>计算机-屈靖凯-2022414040229</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="2" column="3">
+       <widget class="QPushButton" name="btchu">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>15777215</width>
+          <height>15777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #f6f6f6;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}
+QPushButton:hover {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #d8d8d8;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}
+QPushButton:pressed {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #b4b4b4;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}</string>
+        </property>
+        <property name="text">
+         <string>/</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QPushButton" name="btx2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>15777215</width>
+          <height>15777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #f6f6f6;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}
+QPushButton:hover {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #d8d8d8;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}
+QPushButton:pressed {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #b4b4b4;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}</string>
+        </property>
+        <property name="text">
+         <string>x^2</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="QPushButton" name="bt9">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>15777215</width>
+          <height>15777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #fcfcfc;
+	border: 2px solid #e5e5e5;
+}
+QPushButton:hover{
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #dddddd;
+	border: 2px solid #e5e5e5;
+}
+QPushButton:pressed {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #bababa;
+	border: 2px solid #e5e5e5;
+}</string>
+        </property>
+        <property name="text">
+         <string>9</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0">
+       <widget class="QPushButton" name="bt1">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>15777215</width>
+          <height>15777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #fcfcfc;
+	border: 2px solid #e5e5e5;
+}
+QPushButton:hover{
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #dddddd;
+	border: 2px solid #e5e5e5;
+}
+QPushButton:pressed {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #bababa;
+	border: 2px solid #e5e5e5;
+}</string>
+        </property>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="0">
+       <widget class="QPushButton" name="btjiajian">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>15777215</width>
+          <height>15777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #fcfcfc;
+	border: 2px solid #e5e5e5;
+}
+QPushButton:hover{
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #dddddd;
+	border: 2px solid #e5e5e5;
+}
+QPushButton:pressed {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #bababa;
+	border: 2px solid #e5e5e5;
+}</string>
+        </property>
+        <property name="text">
+         <string>±</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QPushButton" name="bt4">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>15777215</width>
+          <height>15777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #fcfcfc;
+	border: 2px solid #e5e5e5;
+}
+QPushButton:hover{
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #dddddd;
+	border: 2px solid #e5e5e5;
+}
+QPushButton:pressed {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #bababa;
+	border: 2px solid #e5e5e5;
+}</string>
+        </property>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QPushButton" name="bt7">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>15777215</width>
+          <height>15777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #fcfcfc;
+	border: 2px solid #e5e5e5;
+}
+QPushButton:hover{
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #dddddd;
+	border: 2px solid #e5e5e5;
+}
+QPushButton:pressed {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #bababa;
+	border: 2px solid #e5e5e5;
+}</string>
+        </property>
+        <property name="text">
+         <string>7</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="1">
+       <widget class="QPushButton" name="bt0">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>15777215</width>
+          <height>15777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #fcfcfc;
+	border: 2px solid #e5e5e5;
+}
+QPushButton:hover{
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #dddddd;
+	border: 2px solid #e5e5e5;
+}
+QPushButton:pressed {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #bababa;
+	border: 2px solid #e5e5e5;
+}</string>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="2">
+       <widget class="QPushButton" name="bt3">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>15777215</width>
+          <height>15777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #fcfcfc;
+	border: 2px solid #e5e5e5;
+}
+QPushButton:hover{
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #dddddd;
+	border: 2px solid #e5e5e5;
+}
+QPushButton:pressed {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #bababa;
+	border: 2px solid #e5e5e5;
+}</string>
+        </property>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="btbaifen">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>15777215</width>
+          <height>15777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #f6f6f6;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}
+QPushButton:hover {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #d8d8d8;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}
+QPushButton:pressed {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #b4b4b4;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}</string>
+        </property>
+        <property name="text">
+         <string>%</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0" colspan="4">
+       <widget class="QLineEdit" name="kuang">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 24pt &quot;Microsoft YaHei UI&quot;;
+background-color: rgb(243, 243, 243);
+border: 0px;</string>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::EchoMode::Normal</enum>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+        </property>
+        <property name="placeholderText">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QPushButton" name="btshanchu">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>15777215</width>
+          <height>15777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #f6f6f6;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}
+QPushButton:hover {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #d8d8d8;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}
+QPushButton:pressed {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #b4b4b4;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}</string>
+        </property>
+        <property name="text">
+         <string>⌫</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="2">
+       <widget class="QPushButton" name="btdian">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>15777215</width>
+          <height>15777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #fcfcfc;
+	border: 2px solid #e5e5e5;
+}
+QPushButton:hover{
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #dddddd;
+	border: 2px solid #e5e5e5;
+}
+QPushButton:pressed {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #bababa;
+	border: 2px solid #e5e5e5;
+}</string>
+        </property>
+        <property name="text">
+         <string>.</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QPushButton" name="btC">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>15777215</width>
+          <height>15777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #f6f6f6;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}
+QPushButton:hover {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #d8d8d8;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}
+QPushButton:pressed {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #b4b4b4;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}</string>
+        </property>
+        <property name="text">
+         <string>C</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QPushButton" name="bt1x">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>15777215</width>
+          <height>15777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #f6f6f6;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}
+QPushButton:hover {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #d8d8d8;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}
+QPushButton:pressed {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #b4b4b4;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}</string>
+        </property>
+        <property name="text">
+         <string>1/x</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="2">
+       <widget class="QPushButton" name="bt6">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>15777215</width>
+          <height>15777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #fcfcfc;
+	border: 2px solid #e5e5e5;
+}
+QPushButton:hover{
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #dddddd;
+	border: 2px solid #e5e5e5;
+}
+QPushButton:pressed {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #bababa;
+	border: 2px solid #e5e5e5;
+}</string>
+        </property>
+        <property name="text">
+         <string>6</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QPushButton" name="bt8">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>15777215</width>
+          <height>15777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #fcfcfc;
+	border: 2px solid #e5e5e5;
+}
+QPushButton:hover{
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #dddddd;
+	border: 2px solid #e5e5e5;
+}
+QPushButton:pressed {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #bababa;
+	border: 2px solid #e5e5e5;
+}</string>
+        </property>
+        <property name="text">
+         <string>8</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QPushButton" name="btgen">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>15777215</width>
+          <height>15777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #f6f6f6;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}
+QPushButton:hover {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #d8d8d8;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}
+QPushButton:pressed {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #b4b4b4;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}</string>
+        </property>
+        <property name="text">
+         <string>√</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="3">
+       <widget class="QPushButton" name="btdengyu">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>15777215</width>
+          <height>15777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #1975c5;
+	color: rgb(255, 255, 255);
+	border-radius: 5px;
+	border: 2px solid #1873be;
+}
+QPushButton:hover {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #1d8be5;
+	color: rgb(255, 255, 255);
+	border-radius: 5px;
+	border: 2px solid #1873be;
+}
+QPushButton:pressed {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #209bff;
+	color: rgb(255, 255, 255);
+	border-radius: 5px;
+	border: 2px solid #1873be;
+}</string>
+        </property>
+        <property name="text">
+         <string>=</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="3">
+       <widget class="QPushButton" name="btcheng">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>15777215</width>
+          <height>15777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #f6f6f6;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}
+QPushButton:hover {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #d8d8d8;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}
+QPushButton:pressed {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #b4b4b4;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}</string>
+        </property>
+        <property name="text">
+         <string>×</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QPushButton" name="btCE">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>15777215</width>
+          <height>15777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #f6f6f6;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}
+QPushButton:hover {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #d8d8d8;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}
+QPushButton:pressed {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #b4b4b4;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}</string>
+        </property>
+        <property name="text">
+         <string>CE</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QPushButton" name="bt5">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>15777215</width>
+          <height>15777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #fcfcfc;
+	border: 2px solid #e5e5e5;
+}
+QPushButton:hover{
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #dddddd;
+	border: 2px solid #e5e5e5;
+}
+QPushButton:pressed {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #bababa;
+	border: 2px solid #e5e5e5;
+}</string>
+        </property>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="3">
+       <widget class="QPushButton" name="btjia">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>15777215</width>
+          <height>15777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #f6f6f6;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}
+QPushButton:hover {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #d8d8d8;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}
+QPushButton:pressed {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #b4b4b4;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}</string>
+        </property>
+        <property name="text">
+         <string>+</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="1">
+       <widget class="QPushButton" name="bt2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>15777215</width>
+          <height>15777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #fcfcfc;
+	border: 2px solid #e5e5e5;
+}
+QPushButton:hover{
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #dddddd;
+	border: 2px solid #e5e5e5;
+}
+QPushButton:pressed {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	border-radius: 5px;
+	background-color: #bababa;
+	border: 2px solid #e5e5e5;
+}</string>
+        </property>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="3">
+       <widget class="QPushButton" name="btjian">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>15777215</width>
+          <height>15777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #f6f6f6;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}
+QPushButton:hover {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #d8d8d8;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}
+QPushButton:pressed {
+	font: 12pt &quot;Microsoft YaHei UI&quot;;
+	background-color: #b4b4b4;
+	border-radius: 5px;
+	border: 2px solid #e9e9e9;
+}</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>450</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
