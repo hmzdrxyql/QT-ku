@@ -9,6 +9,8 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
+    //test
+
     btnNums = {
                 {Qt::Key_0, ui->bt0},
                 {Qt::Key_1, ui->bt1},
